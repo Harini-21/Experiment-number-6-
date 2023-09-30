@@ -1,0 +1,38 @@
+MIME-Version: 1.0
+Date: Sat, 30 Sep 2023 11:54:55 +0530
+Message-ID: <CAKBf-+QEdj_bL+tGEAVXc6chfxKMheeua1+HAre7zV7Hdey-TA@mail.gmail.com>
+Subject: gradeexception.java
+From: Renuga D <d.renuga007@gmail.com>
+To: Renuga D <d.renuga007@gmail.com>
+Content-Type: multipart/alternative; boundary="00000000000021617f06068db11f"
+
+--00000000000021617f06068db11f
+Content-Type: text/plain; charset="UTF-8"
+
+package testgrade.java;
+
+/**
+ *
+ * @author test03
+ */
+class gradeexception extends Exception {
+     public static final char[] VALID_GRADES = {'A', 'B', 'C', 'D', 'F',
+'I'};
+
+    public gradeexception(String message) {
+        super(message);
+}
+}
+
+--00000000000021617f06068db11f
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">package testgrade.java;<br><br>/**<br>=C2=A0*<br>=C2=A0* @=
+author test03<br>=C2=A0*/<br>class gradeexception extends Exception {<br>=
+=C2=A0 =C2=A0 =C2=A0public static final char[] VALID_GRADES =3D {&#39;A&#39=
+;, &#39;B&#39;, &#39;C&#39;, &#39;D&#39;, &#39;F&#39;, &#39;I&#39;};<br><br=
+>=C2=A0 =C2=A0 public gradeexception(String message) {<br>=C2=A0 =C2=A0 =C2=
+=A0 =C2=A0 super(message);<br>}<br>}<br></div>
+
+--00000000000021617f06068db11f--
